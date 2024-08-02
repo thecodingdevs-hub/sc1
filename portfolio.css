@@ -1,0 +1,109 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7; /* Light blue background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Align items to the sides */
+    align-items: center; /* Center vertically */
+}
+
+.logo img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin-left: 20px; /* Add margin for spacing */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.portfolio {
+    background-color: #fff; /* White portfolio background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex-basis: 30%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e9f0f5; /* Light blue background */
+    text-align: left;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #007bff; /* Blue heading */
+}
+
+.portfolio-item p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #007bff; /* Blue footer background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}

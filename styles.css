@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Light background for the overall page */
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #007BFF; /* Blue background for header */
+    padding: 20px 0;
+    color: white; /* White text color for header */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text color for nav links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4; /* Slightly lighter shade on hover */
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.hero {
+    background-color: #333; /* Dark background for contrast */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background-color: #007BFF; /* Blue button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.services, .portfolio, .about {
+    padding: 20px;
+    text-align: center;
+    background-color: white; /* White background for content sections */
+    color: #333; /* Default text color for readability */
+    margin: 20px 0;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+footer {
+    background-color: #007BFF; /* Blue background for footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Mobile-Friendly Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero .btn {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .services, .portfolio, .about {
+        padding: 15px;
+    }
+}
